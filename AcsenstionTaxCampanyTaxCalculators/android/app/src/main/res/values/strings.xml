@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ascension Legal Diary</string>
+    <string name="facebook_app_id">350696512569509</string>
+    <string name="fb_login_protocol_scheme">fb350696512569509</string>
+</resources>

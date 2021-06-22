@@ -1,0 +1,78 @@
+{
+  "project_info": {
+    "project_number": "716980723963",
+    "project_id": "ascension-legal-diary-ad9d6",
+    "storage_bucket": "ascension-legal-diary-ad9d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716980723963:android:7e9cf8113ed2fef827105e",
+        "android_client_info": {
+          "package_name": "com.ascension.legal.diary.ald.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716980723963-a0v2b95bh1g7lb7f9osthuap8hchu5td.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ascension.legal.diary.ald.app",
+            "certificate_hash": "a1d1da8ee00e3879a9d939d63f4121b15696f534"
+          }
+        },
+        {
+          "client_id": "716980723963-jhfl4tohvvd5aka2ctsecp3643luo0qt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ascension.legal.diary.ald.app",
+            "certificate_hash": "202a76d0fd56f05910b8983ac48e5b485df983f0"
+          }
+        },
+        {
+          "client_id": "716980723963-o8cqao9b016cq5dqoodkohdpuos5gv04.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ascension.legal.diary.ald.app",
+            "certificate_hash": "978190e82c25f5cf236706083b115b170e5833d2"
+          }
+        },
+        {
+          "client_id": "716980723963-s3ddm5ekd5okoq30ou21glt26qpigdbc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ascension.legal.diary.ald.app",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "716980723963-s831o52gi9756df48u9b1dc3ggjip8rp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtg9UNbmtJrjIXDgZOGxeJCdQENOKwJgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716980723963-s831o52gi9756df48u9b1dc3ggjip8rp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "716980723963-2cjr440gjjmt9e0gnj3m4g598evg9rbi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ascension.legal.diary.ald.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
