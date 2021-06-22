@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ascension_Legal_Diary.iml" filepath="$PROJECT_DIR$/.idea/modules/Ascension_Legal_Diary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Ascension_Legal_Diary.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Ascension_Legal_Diary.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/837948953/Ascension_Legal_Diary.react-native-bootsplash.iml" filepath="$PROJECT_DIR$/.idea/modules/837948953/Ascension_Legal_Diary.react-native-bootsplash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-884094540/Ascension_Legal_Diary.react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-884094540/Ascension_Legal_Diary.react-native-community_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1935717568/Ascension_Legal_Diary.react-native-community_google-signin.iml" filepath="$PROJECT_DIR$/.idea/modules/-1935717568/Ascension_Legal_Diary.react-native-community_google-signin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1423309391/Ascension_Legal_Diary.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-1423309391/Ascension_Legal_Diary.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2073121922/Ascension_Legal_Diary.react-native-fbsdk.iml" filepath="$PROJECT_DIR$/.idea/modules/-2073121922/Ascension_Legal_Diary.react-native-fbsdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-603605847/Ascension_Legal_Diary.react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/-603605847/Ascension_Legal_Diary.react-native-firebase_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1854493766/Ascension_Legal_Diary.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/1854493766/Ascension_Legal_Diary.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1440819672/Ascension_Legal_Diary.react-native-iap.iml" filepath="$PROJECT_DIR$/.idea/modules/1440819672/Ascension_Legal_Diary.react-native-iap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-310313856/Ascension_Legal_Diary.react-native-image-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-310313856/Ascension_Legal_Diary.react-native-image-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1348285974/Ascension_Legal_Diary.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/1348285974/Ascension_Legal_Diary.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/408449839/Ascension_Legal_Diary.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/408449839/Ascension_Legal_Diary.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2052967929/Ascension_Legal_Diary.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-2052967929/Ascension_Legal_Diary.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-93420060/Ascension_Legal_Diary.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/-93420060/Ascension_Legal_Diary.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1314953552/Ascension_Legal_Diary.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/1314953552/Ascension_Legal_Diary.react-native-vector-icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1466280714/Ascension_Legal_Diary.react-native-view-pdf.iml" filepath="$PROJECT_DIR$/.idea/modules/1466280714/Ascension_Legal_Diary.react-native-view-pdf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1500941945/Ascension_Legal_Diary.react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/1500941945/Ascension_Legal_Diary.react-native-webview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-710585191/Ascension_Legal_Diary.rn-fetch-blob.iml" filepath="$PROJECT_DIR$/.idea/modules/-710585191/Ascension_Legal_Diary.rn-fetch-blob.iml" />
+    </modules>
+  </component>
+</project>
