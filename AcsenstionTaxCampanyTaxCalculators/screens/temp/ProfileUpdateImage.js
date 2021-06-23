@@ -9,6 +9,7 @@ import {
     Alert,
     Image,
     KeyboardAvoidingView, Keyboard,
+    PermissionsAndroid
 } from "react-native";
 import styles from '../../styles/register';
 import { AuthContext } from '../../src/AuthProvider';
@@ -29,23 +30,34 @@ const ProfileUpdateImage = () => {
 
 
 
-    const selectPhoto = () => {
-        const options = {
-            mediaType: 'photo',
-            quality: 0.1,
-        };
-        launchCamera(options, response => {
-            if (response.didCancel) {
-                //cancel
-            } else if (response.error) {
-                //error
+    const selectPhoto = async () => {
+        try {
+            const granted = await PermissionsAndroid.request(PermissionsAndroid.PERMISSIONS.CAMERA);
+            if (granted === PermissionsAndroid.RESULTS.GRANTED) {
+                const options = {
+                    mediaType: 'photo',
+                    quality: 0.1,
+                };
+                launchCamera(options, response => {
+                    if (response.didCancel) {
+                        //cancel
+                        alert("Cancel")
+                    } else if (response.error) {
+                        //error
+                        alert("error")
+                    }
+                    else {
+                        let source = { uri: response.assets[0].uri };
+                        setResponse(response)
+                        setImageSourceData(source);
+                    }
+                });
+            } else {
+                alert("Camera Permission Denied")
             }
-            else {
-                let source = { uri: response.assets[0].uri };
-                setResponse(response)
-                setImageSourceData(source);
-            }
-        });
+        } catch (err) {
+            console.warn(err);
+        }
     };
 
     const selectPhoto_gallery = () => {

@@ -9,6 +9,7 @@ import {
     Keyboard,
     TouchableOpacity,
     ScrollView, ImageBackground,
+    PermissionsAndroid
 } from 'react-native';
 import styles from '../styles/register';
 // import ImagePicker from 'react-native-image-picker';
@@ -106,24 +107,34 @@ const Register = ({ navigation, route }) => {
     };
 
 
-
-    const selectPhoto = () => {
-        const options = {
-            mediaType: 'photo',
-            quality: 0.1,
-        };
-        launchCamera(options, response => {
-            if (response.didCancel) {
-                //cancel
-            } else if (response.error) {
-                //error
+    const selectPhoto = async () => {
+        try {
+            const granted = await PermissionsAndroid.request(PermissionsAndroid.PERMISSIONS.CAMERA);
+            if (granted === PermissionsAndroid.RESULTS.GRANTED) {
+                const options = {
+                    mediaType: 'photo',
+                    quality: 0.1,
+                };
+                launchCamera(options, response => {
+                    if (response.didCancel) {
+                        //cancel
+                        alert("Cancel")
+                    } else if (response.error) {
+                        //error
+                        alert("error")
+                    }
+                    else {
+                        let source = { uri: response.assets[0].uri };
+                        setResponse(response)
+                        setImageSourceData(source);
+                    }
+                });
+            } else {
+                alert("Camera Permission Denied")
             }
-            else {
-                let source = { uri: response.assets[0].uri };
-                setResponse(response)
-                setImageSourceData(source);
-            }
-        });
+        } catch (err) {
+            console.warn(err);
+        }
     };
 
     const selectPhoto_gallery = () => {
