@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>621680553614-kcfd0k448ks3e9ekhhh6i1qj2sr9jro6.apps.googleusercontent.com</string>
+	<string>766075537924-fk7vtopnu373bhgnf5otg65u3f54b4jd.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.621680553614-kcfd0k448ks3e9ekhhh6i1qj2sr9jro6</string>
+	<string>com.googleusercontent.apps.766075537924-fk7vtopnu373bhgnf5otg65u3f54b4jd</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAsR8W_XQmM7ZbPJZ0eZu_3hJ2RA5uHVQk</string>
+	<string>AIzaSyAIkYK4V0GnnP1WlQUndOhPXAKfXcgRDhw</string>
 	<key>GCM_SENDER_ID</key>
-	<string>621680553614</string>
+	<string>766075537924</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.acsenstiontaxcampanytaxcalculators</string>
+	<string>com.ascensionlegaldiarylawapplication</string>
 	<key>PROJECT_ID</key>
-	<string>ascensiontaxcalculaton</string>
+	<string>ascension-legal-diary-law-app</string>
 	<key>STORAGE_BUCKET</key>
-	<string>ascensiontaxcalculaton.appspot.com</string>
+	<string>ascension-legal-diary-law-app.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:621680553614:ios:8c20c5c84916035c19a3df</string>
+	<string>1:766075537924:ios:9dcadfd3932eb34ff00351</string>
 </dict>
 </plist>

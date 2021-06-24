@@ -14,8 +14,7 @@
 		5F8E8F92D3A51848BEFB5D85 /* libPods-AcsenstionTaxCampanyTaxCalculators-AcsenstionTaxCampanyTaxCalculatorsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57632519DDBFD544366A9044 /* libPods-AcsenstionTaxCampanyTaxCalculators-AcsenstionTaxCampanyTaxCalculatorsTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		A877D01DBCE89D5031EAEA3C /* libPods-AcsenstionTaxCampanyTaxCalculators.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2E32F0F574D285B4DDFF83 /* libPods-AcsenstionTaxCampanyTaxCalculators.a */; };
-		BC3CD5FD2670CA8600AC236B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC3CD5FC2670CA8600AC236B /* GoogleService-Info.plist */; };
-		BC3CD5FE2670CA8600AC236B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC3CD5FC2670CA8600AC236B /* GoogleService-Info.plist */; };
+		BC123A802684A90C00AC907B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC123A7F2684A90C00AC907B /* GoogleService-Info.plist */; };
 		BCD2753E266E535300FE1764 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD2753D266E535300FE1764 /* File.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +44,7 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AcsenstionTaxCampanyTaxCalculators/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E659AEC96029A4FABF0CAE /* Pods-AcsenstionTaxCampanyTaxCalculators.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcsenstionTaxCampanyTaxCalculators.release.xcconfig"; path = "Target Support Files/Pods-AcsenstionTaxCampanyTaxCalculators/Pods-AcsenstionTaxCampanyTaxCalculators.release.xcconfig"; sourceTree = "<group>"; };
 		994910E2800F32937005172C /* Pods-AcsenstionTaxCampanyTaxCalculators-AcsenstionTaxCampanyTaxCalculatorsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcsenstionTaxCampanyTaxCalculators-AcsenstionTaxCampanyTaxCalculatorsTests.release.xcconfig"; path = "Target Support Files/Pods-AcsenstionTaxCampanyTaxCalculators-AcsenstionTaxCampanyTaxCalculatorsTests/Pods-AcsenstionTaxCampanyTaxCalculators-AcsenstionTaxCampanyTaxCalculatorsTests.release.xcconfig"; sourceTree = "<group>"; };
-		BC3CD5FC2670CA8600AC236B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BC123A7F2684A90C00AC907B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BCD2753C266E535300FE1764 /* AcsenstionTaxCampanyTaxCalculators-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AcsenstionTaxCampanyTaxCalculators-Bridging-Header.h"; sourceTree = "<group>"; };
 		BCD2753D266E535300FE1764 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -92,7 +91,7 @@
 		13B07FAE1A68108700A75B9A /* AcsenstionTaxCampanyTaxCalculators */ = {
 			isa = PBXGroup;
 			children = (
-				BC3CD5FC2670CA8600AC236B /* GoogleService-Info.plist */,
+				BC123A7F2684A90C00AC907B /* GoogleService-Info.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -245,7 +244,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC3CD5FE2670CA8600AC236B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +253,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				BC3CD5FD2670CA8600AC236B /* GoogleService-Info.plist in Resources */,
+				BC123A802684A90C00AC907B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,7 +513,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 14;
 				DEVELOPMENT_TEAM = 9URNDZU9Z9;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = AcsenstionTaxCampanyTaxCalculators/Info.plist;
@@ -523,7 +521,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 13.0;
+				MARKETING_VERSION = 14.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -547,14 +545,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 14;
 				DEVELOPMENT_TEAM = 9URNDZU9Z9;
 				INFOPLIST_FILE = AcsenstionTaxCampanyTaxCalculators/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 13.0;
+				MARKETING_VERSION = 14.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
